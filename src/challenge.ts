@@ -5,6 +5,7 @@
 // and returns the modified groceries list
 function deleteThirdItem(groceries: string[]): string[] {
   // write your code here...
+  groceries.splice(2, 1, 3);
   return [];
 }
 
